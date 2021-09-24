@@ -38,7 +38,7 @@
             <div class="col-xl-6" id="why">
 
                 <div class="container mt-lg-5 ">
-                    <h1 class="pt-lg-5 mt-lg-5 mt-4">Why Delivio?</h1>
+                    <h1 class="pt-lg-3 mt-lg-4 mt-4">Why Delivio?</h1>
                     <div class="py-4">
                         <div class="text-center" data-aos="fade-up">
                             <img src="shipper-3-images/Vector.png" class="img-fluid" alt=""></div>
@@ -66,24 +66,40 @@
                                 to sell and dropship products and earn even more</h6>
                         </div>
                     </div>
-                    <div class=" container mt-xl-5 pt-xl-5">
-                    <div class="row py-4 px-lg-4 ml-lg-5 justify-content-xl-start justify-content-center">
-                        <img src="shipper-3-images/Group 1292.png" class="img-fluid " alt="">
-                        <h5 class="px-3 pt-2">thedelivio.com</h5>
-                    </div>
-                    <div class="row py-4 px-lg-4 ml-lg-5 ml-3 justify-content-xl-start justify-content-center">
-                        <img src="shipper-3-images/Group 1293.png" class="img-fluid ml-lg-4 ml-xl-0 " alt="">
-                        <h5 class="px-3 pt-2">+1 (732) 666-2020</h5>
-                    </div>
-                    <div class="row py-3 ml-lg-5 ml-1 justify-content-xl-start justify-content-center pl-3">
-                        <img src="shipper-3-images/Group 1294.png" class="img-fluid px-2 img-hover" alt="">
-                        <img src="shipper-3-images/Group 1295.png" class="img-fluid  px-2 img-hover" alt="">
-                        <img src="shipper-3-images/Group 1296.png" class="img-fluid  px-2 img-hover" alt="">
-                        <img src="shipper-3-images/Group 1297.png" class="img-fluid  px-2 img-hover" alt="">
+                    <div class=" container mt-xl-5 ">
+                        <div class="d-flex justify-content-center ">
+                            <div class="wrapper">
+                                <div class="positions w-100">
+                                    <div class="d-flex ">
+                                        <div class="col-6">
+                                            <h4>Work 2 hours a day</h4>
+                                        </div>
+                                        <div class="col-6 text-right">
+                                            <i class="fa fa-ellipsis-v ml-md-5 ml-4 text-white "></i></div>
+                                    </div>
+                                </div>
+                                <video class="video" poster="./shipper-3-images/Rectangle.svg">
+                                    <source
+                                        src="http://e14aaeb709f7cde1ae68-a1d0a134a31b545b257b15f8a8ba5726.r70.cf3.rackcdn.com/projects/31432/1427815464209-bf74131a7528d0ea5ce8c0710f530bb5/1280x720.mp4"
+                                        type="video/mp4" />
+                                </video>
+                                <div class="playpause"></div>
+                            </div>
+
+                        </div>
+                        <div class="row py-4 px-lg-4 ml-lg-5 mt-4 justify-content-xl-start justify-content-center">
+                            <img src="shipper-3-images/Group 1292.png" class="img-fluid " alt="">
+                            <h5 class="px-3 pt-2">thedelivio.com</h5>
+                        </div>
+                        <div class="row py-3 ml-lg-5 ml-1 justify-content-xl-start justify-content-center pl-3">
+                            <img src="shipper-3-images/Group 1294.png" class="img-fluid px-2 img-hover" alt="">
+                            <img src="shipper-3-images/Group 1295.png" class="img-fluid  px-2 img-hover" alt="">
+                            <img src="shipper-3-images/Group 1296.png" class="img-fluid  px-2 img-hover" alt="">
+                            <img src="shipper-3-images/Group 1297.png" class="img-fluid  px-2 img-hover" alt="">
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
             <!------------------sign up----------->
             <div class="col-xl-6 px-0">
                 <div class="container-fluid" id="sign-up">
@@ -92,7 +108,7 @@
                         <div class="container py-3">
                             <div class="py-4">
                                 <h1 class="pt-3">Sign Up with Delivio</h1>
-                               
+
                             </div>
                             <form class="px-md-4 py-4">
                                 <div class="form-group py-3">
@@ -187,6 +203,17 @@
                                         </div>
                                     </div>
                                 </div>
+                                <div class="row px-md-4 pt-3">
+                                    <div class="col-md-7">
+                                        <h2>Set up meeting with us :</h2>
+                                    </div>
+                                    <div class="col-md-5">
+                                        <div class="row">
+                                            <img src="./shipper-3-images/calender.png" class="img-fluid mr-2" alt="">
+                                            <span style="font-size: 20px; color: #fff;">20 August 2021</span>
+                                        </div>
+                                    </div>
+                                </div>
                                 <div class="row justify-content-center my-5 py-3">
                                     <button class="btn px-md-5 py-3">Sign Up</button>
                                 </div>
@@ -207,5 +234,15 @@
     AOS.init();
 </script>
 <Script src="assets/js/main.js"></Script>
+<script>
+      ('.video').parent().click(function () {
+        if ($(this).children(".video").get(0).paused) {
+            $(this).children(".video").get(0).play(); $(this).children(".playpause").fadeOut();
+        } else {
+            $(this).children(".video").get(0).pause();
+            $(this).children(".playpause").fadeIn();
+        }
+    });
+</script>
 
 </html>
