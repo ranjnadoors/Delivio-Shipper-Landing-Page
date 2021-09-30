@@ -301,44 +301,44 @@ align-items: center;
 color: #000000 !important;
 }
 .video {
-  width: 100%;
-  
-  }
-  .wrapper{
-  display:table;
-  width:auto;
-  position:relative;
-  width:50%;
-  }
-  .playpause {
-  background:url(../shipper-3-images/play.svg),rgba(255,255,255,0.4);
-  background-repeat:no-repeat;
-  width:16%;
-  height:30%;
-  position:absolute;
-  left:0%;
-  border: 1px solid transparent;
-  
-  border-radius: 50%;
-  right:0%;
-  top:0%;
-  bottom:0%;
-  margin:auto;
-  background-size:auto;
-  background-position: center;
-  }
-  h4{
-  
-  font-size: 14px !important;
-  
-  color: #fff;
-  font-family: Jost-Regular;
-  }
-  .positions{
-  position: absolute; 
-  top: 3%;
-  left: 2%;
-  }
+width: 100%;
+
+}
+.wrapper{
+display:table;
+width:auto;
+position:relative;
+width:50%;
+}
+.playpause {
+background:url(../shipper-3-images/play.svg),rgba(255,255,255,0.4);
+background-repeat:no-repeat;
+width:16%;
+height:30%;
+position:absolute;
+left:0%;
+border: 1px solid transparent;
+
+border-radius: 50%;
+right:0%;
+top:0%;
+bottom:0%;
+margin:auto;
+background-size:auto;
+background-position: center;
+}
+h4{
+
+font-size: 14px !important;
+
+color: #fff;
+font-family: Jost-Regular;
+}
+.positions{
+position: absolute; 
+top: 3%;
+left: 2%;
+}
 /* ***************************media queries******************************/
 /* Smartphones (portrait) ----------- */
 @media (min-width: 357px) and (max-width: 767px) {
