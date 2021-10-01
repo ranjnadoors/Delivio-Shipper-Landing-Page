@@ -3,12 +3,16 @@ src: url(../assets/font/Merriweather/Merriweather-Bold.ttf);
 font-family: Merriweather;
 }
 @font-face{
-src: url(../assets/font/Open_Sans/OpenSans-SemiBold.ttf);
-font-family:Open Sans;
+    src: url(../assets/font/new_merri/Merriweather-Bold.ttf);
+    font-family: Merriweather-Bold;
 }
 @font-face{
-src: url(../assets/font/AmstelvarAlpha-Default/amstelvara.ttf);
-font-family:AmstelvarAlpha;
+src: url(../assets/font/Open_Sans/OpenSans-SemiBold.ttf);
+font-family:Open_Sans;
+}
+@font-face{
+src: url(../assets/font/Poppins/Poppins-Light.ttf);
+font-family:Poppins-Light;
 }
 *{
 margin:0;
@@ -26,30 +30,27 @@ cursor: pointer;
 background: #000000 !important;
 }
 #why h1{
-font-family: Merriweather;
+font-family:Open_Sans;
 font-style: normal;
 font-weight: bold;
-font-size: 80px;
-line-height: 101px;
-display: flex;
+font-size: 65px;
+text-align: center;
 align-items: center;
 color: #000000;
 justify-content: center;
 }
 #why h6{
-font-family: AmstelvarAlpha;
+font-family:Poppins-Light;
 font-style: normal;
 font-weight: normal;
-font-size: 28px;
-line-height: 160%;
-display: flex;
-align-items: center;
+font-size: 22px;
+font-weight: 500;
 text-align: center;
 justify-content: center;
 color: #000000;
 }
 #why h5{
-font-family: AmstelvarAlpha;
+font-family: Poppins-Light;
 font-style: normal;
 font-weight: normal;
 font-size: 24px;
@@ -64,16 +65,13 @@ background: rgba(139, 189, 67, 1);
 
 }
 #sign-up h1{
-font-family: AmstelvarAlpha;
+font-family:Open_Sans;
 font-style: normal;
 font-weight: normal;
 font-size: 40px;
-line-height: 58px;
-display: flex;
-align-items: center;
-justify-content: center;
+text-align: center;
 color: #FFFFFF;
-text-decoration: 1px underline;
+text-decoration: 3px underline;
 text-underline-position: under;
 text-underline-offset:6px;
 }
@@ -84,23 +82,17 @@ margin-left: 195px;
 margin-top:-11px;
 }
 #sign-up h6{
-font-family: AmstelvarAlpha;
+font-family: Open_Sans;
 font-style: normal;
 font-weight: normal;
 font-size: 30px;
-line-height: 20px;
-display: flex;
-align-items: center;
 color: #FFFFFF;
 }
 .form-check-label{
-font-family: AmstelvarAlpha;
+font-family: Poppins-Light;
 font-style: normal;
 font-weight: normal;
-font-size: 30px;
-
-display: flex;
-align-items: center;
+font-size: 20px;
 color: #FFFFFF;
 }
 
@@ -114,8 +106,8 @@ input[type="radio"] {
 appearance: none;
 /* create custom radiobutton appearance */
 display: inline-block;
-width: 30px;
-height: 30px;
+width: 20px;
+height: 20px;
 padding: 6px;
 /* background-color only for content */
 background-clip: content-box;
@@ -138,7 +130,7 @@ color: #fff !important;
 border: 1px solid #fff !important;
 }
 #radio-btn label{
-font-family: Open Sans;
+font-family: Open_Sans;
 font-style: normal;
 font-weight: bold;
 font-size: 20px;
@@ -160,21 +152,18 @@ letter-spacing: 0.5px;
 color: #8BBD43;
 }
 #sign-up h2{
-font-family: AmstelvarAlpha;
+font-family: Open_Sans;
 font-style: normal;
 font-weight: normal;
-font-size: 30px;
-line-height: 48px;
-display: flex;
-align-items: center;
+font-size: 23px;
 color: #FFFFFF;
 }
 #sign-up .btn{
-font-family: Merriweather;
+font-family: 'Poppins-Light';
 font-style: normal;
 font-weight: bold;
 font-size: 26px;
-line-height: 33px;
+
 display: flex;
 align-items: center;
 letter-spacing: 0.5px;
@@ -247,8 +236,9 @@ input[type=checkbox]:after {
 content: " ";
 display: inline-block;
 color: #fff;
-width: 25px;
-height: 25px;
+margin-top: 3px;
+width: 22px;
+height: 22px;
 visibility: visible;
 border: 1px solid #FFF;
 position: fixed;
@@ -291,13 +281,12 @@ transform: rotate(-45deg);
 }
 
 .form-control::placeholder{
-font-family: AmstelvarAlpha;
+font-family:Poppins-Light ;
 font-style: normal;
 font-weight: normal;
 font-size: 20px;
-line-height: 24px;
-display: flex;
-align-items: center;
+
+
 color: #000000 !important;
 }
 .video {
@@ -308,7 +297,7 @@ width: 100%;
 display:table;
 width:auto;
 position:relative;
-width:50%;
+width:71%;
 }
 .playpause {
 background:url(../shipper-3-images/play.svg),rgba(255,255,255,0.4);
@@ -343,13 +332,13 @@ left: 2%;
 /* Smartphones (portrait) ----------- */
 @media (min-width: 357px) and (max-width: 767px) {
 #why h1{
-font-size: 49px;
+font-size: 35px;
 }
 #sign-up .border-bottom-2{
 margin-left: 10px;
 }
 #sign-up h1 {
-font-size: 38px;
+font-size: 35px;
 }
 #why h6{
 font-size: 20px;
@@ -369,7 +358,7 @@ margin-left: 173px;
 margin-top:-11px;
 }
 #why h1{
-font-size: 55px;
+font-size: 45px;
 }
 
 }
